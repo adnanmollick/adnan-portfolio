@@ -10,6 +10,7 @@ body {
   background: #0d0d0d;
   color: #ffffff;
   line-height: 1.6;
+  style="background-image: url('background.jpg'); height: 500px; background-size: cover; background-position: center;"
 }
 
 .container {
