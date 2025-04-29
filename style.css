@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+    }
 }
 
 body {
@@ -10,6 +11,7 @@ body {
   background: #0d0d0d;
   color: #ffffff;
   line-height: 1.6;
+  class="background-container"
 }
 
 .container {
@@ -25,6 +27,13 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
+    .background-container {
+      background-image: url('background.jpg');
+      background-size: 100% 300px;  /* Set image width to 100% and height to 300px */
+      background-position: center;  /* Center the image */
+      background-repeat: no-repeat;  /* Don't repeat the image */
+      width: 600px;  /* Set the width of the container */
+      height: 300px;  /* Set the height of the container */
 }
 
 header h1 {
